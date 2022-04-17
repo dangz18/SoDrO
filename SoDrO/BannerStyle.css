@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h4{
+  font-size: 17px;
+  text-align: center;
+}
+
+
+.banner {
+  position:relative;
+  top:0;
+  left:0;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 100px;
+  z-index:10;
+  background: url(Images/banner.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+  font-family: monospace; 
+  width: 100vw;
+  height:330px;
+}
+
+.banner .logo {
+  position: relative;
+  top:-80px;
+  padding: 0px;
+  min-width:240px;
+  min-height:120px;
+  background:url(Images/logo.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;
+}
+
+.banner .navigation ul{
+  position: relative;
+  top:-80px;
+  display:flex;
+  justify-content:center
+}
+
+.banner .navigation li{
+  display:inline-block;
+  list-style:none;
+  margin:0 7px;
+}
+.banner .navigation li button{
+  border: 0;
+  border-radius: 35px;
+  padding:0px;
+  width:104px;
+  height:50px;
+  background: linear-gradient(180deg, #6A87A8 39.66%, rgba(106, 135, 168, 0) 100%);
+}
+.banner .navigation li button:hover{
+  background-color: #6A87A8; /* Green */
+  color: white;
+}
+.banner .navigation li button:active{
+    outline: #6A87A8 auto 5px; 
+}
+.listBt{
+  width:28px; 
+  height:35px;
+}
+.userBt{
+  width:32px; 
+  height:35px;
+}
+
+
+
+/*TABLET MODE*/
+
+@media only screen and (max-width: 1075px){
+  .banner .logo{
+    display:block;
+  }
+.banner .navigation ul{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+}
+  .banner .navigation li{
+    margin:0 7px 7px;
+  }
+  .banner .navigation li button{
+    width:90px;
+    height:48px;
+  }
+  h4{
+    font-size:16px;
+  }
+  .listBt{
+      width:25px;
+      height:30px;
+  }
+    .userBt{
+      width:27px;
+      height:30px;
+  }
+}
+
+
+/*PHONE MODE*/
+
+@media only screen and (max-width: 675px){
+
+  .banner {
+    flex-direction:column;
+    height:200px;
+    background:#FFC268;
+  }
+  .banner .logo{
+  display:block;
+  position: relative;
+  top:0px;
+  margin-bottom:100px;
+  margin-left:5%;
+  
+}
+  .banner .navigation ul{
+      flex-wrap:nowrap;
+  }
+ .banner .navigation li button{
+    width:75px;
+    height:37px;
+  }
+  h4{
+    font-size:14px;
+  }
+  .listBt{
+      width:25px;
+      height:30px;
+  }
+    .userBt{
+      width:27px;
+      height:30px;
+  }
+}
+
+
+
+
+

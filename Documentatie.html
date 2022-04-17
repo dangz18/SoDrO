@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>SoDrO Scholarly HTML Report</title>
+
+    <link rel="stylesheet" href="https://w3c.github.io/scholarly-html/css/scholarly.min.css">
+    <script src="https://w3c.github.io/scholarly-html/js/scholarly.min.js"></script>
+</head>
+<body>
+<header>
+        <img style="margin-left:30%; margin-top:30px" src="SoDrO/Images/logo.png" width="240" height="120" alt="Scholarly HTML logo">
+    <h1><project>SoDrO</project> Raport - Scholarly HTML</h1>
+</header>
+  
+<div role="contentinfo"><br>
+    <dl>
+        <dt>Autori</dt>
+        <dd>
+            <a href="https://github.com/LapteacruCristian" target="_blank">1. Lapteacru Cristian</a><br>
+            <a href="https://github.com/dangz18" target="_blank">2. Guzovatii Dan</a><br>
+          <a href="https://github.com/cristiancibotariu" target="_blank">3. Cibotariu Cristian</a>
+        </dd>
+    </dl>
+</div>
+<section typeof="sa:Abstract" id="abstract" role="doc-abstract">
+    <h2>Abstract</h2>
+    <p>
+        Acest document cuprinde aspectele tehnice si interactiunea cu utilizatorul, ale proiectului SoDrO, realizat in colaborare de
+        <a href="https://github.com/dangz18">Guzovatii Dan</a>,
+        <a href="https://github.com/LapteacruCristian">Lapteacru Cristian</a> si 
+        <a href="https://github.com/cristiancibotariu">Cibotariu Cristian</a>
+      pentru Tehnologii Web (2022).
+        <br>
+        <br>
+        <i>Universitatea Alexandru Ioan Cuza din Iasi, Facultatea de Informatica</i>
+    </p>
+</section>
+<!--1.Introduction-->
+<section id="introduction" role="doc-introduction">
+    <h2>Introducere</h2>
+    <section id="purpose">
+        <!-- review? -->
+        <h3>Scop</h3>
+        <p>
+            Aplicatia SoDrO, detaliata in acest document, permite utilizatorilor sa isi selecteze preferintele privind bauturile preferate. Oferim posibilitatea de a crea liste de cumparaturi, astfel usurand procesul de a merge la shopping.
+        </p>
+    </section>
+
+    <section id="intended-audience">
+        <h3>Public ținta</h3>
+        <p>
+            Acest site web este destinat consumatorilor de bauturi non-alcoolice, in scopul de a le facilita descoperirea noilor produse in dependenta de preferintele lor, crearea diagramelor in functie de diferite statistici, iar acest document vizeaza principalele functionalitati ale aplicatiei si modul de interactiune cu utilizatorul. 
+        </p>
+    </section>
+    <section id="scope">
+        <h3>Viziune</h3>
+        <p>
+            Aplicatia doreste sa usureze efortul depus de utilizator pentru a-si face o lista de cumparaturi,
+            si gruparea acestora dupa preferintele stabilite de utilizator si prin usoara gestionare a
+            acestor preferinte. De asemenea sunt puse la dispozitie statistici pentru a avea o perspectiva
+            mai buna asupra lor.
+        </p>
+    </section>
+</section>
+
+<!-- 2. Description -->
+<section id="description" role="doc-introduction">
+    <h2>Descriere</h2>
+
+    <section id="functions">
+        <h3>Functiile Produsului</h3>
+            Mai jos sunt functionalitatile pe care aplicatia SoDrO le ofera.
+        <ul>
+            <li>Crearea unui cont si inregistrarea unui utilizator.</li>
+            <li>Modificarea datelor asociate utilizatorului.</li>
+            <li>Alegerea preferintelor.</li>
+            <li>Vizualizarea celor mai populare 8 produse la momentul dat.</li>
+            <li>Oferirea statisticilor in format csv si svg, si sub forma unui graf.</li>
+            <li>Oferirea posibilitatii de a crea o lista de cumparaturi.</li>
+            <li>Oferirea de date importante despre fiecare produs in parte.</li>
+            
+        </ul>
+    </section>
+    <section id="operating-environment">
+        <h3>Mediul de operare</h3>
+        <p>
+            Fiind o aplicatie web, ea va rula pe orice browser modern. Astfel aplicatia va putea rula
+            pe toate sistemele de operare ce suporta un browser cum ar fi: Android, IOS, Windows, Linux, etc.
+        </p>
+    </section>
+</section>
+
+<!--3.External Interface Requirements-->
+<section id="interfaces">
+    <h2>Interfete externe</h2>
+    <section id="user-interfaces">
+        <h3>Interfata pentru utlizator</h3>
+        <p>
+            Aplicatia ofera o interfata moderna, placuta din punct de vedere vizual pentru a imbunatati
+            experienta utilizatorului. SoDrO poate fi folosita pe ecrane cu rezolutii diferite, datorita designului responsive al site-ului.
+          Aplicatia poate rula si fara autentificarea autilizatorului, intr-un mod limitat(intr-un mod view), in care poate vedea doar produsele.
+          Pentru a avea acces deplin la functionalitatile aplicatiei web SoDrO, utilizatorul ar trebui sa se autentifice.
+        </p>  
+    </section>
+
+    <section id="software-interfaces">
+        <h3>Interfete software</h3>
+        <p>
+          La fiecare vizionare de produs, acesta in cauza va deveni mai popular, strangand cat mai multe vizionari se va ridica in topul 8 celor mai populare bauturi non-alcoolice.
+        </p>
+        <p>
+            Baza de date folosita este SQLite, deoarece se poate integra mai usor baza de date publica a celor de la <a href="https://world.openfoodfacts.org/"> Open Food Facts</a>.
+          Datele aplicatiei sunt stocate in mai multe baze de date, respectiv una pentru utilizatori in care stocam datele acestora( nume, e-mail, parola si preferinte) si una pentru produse in care stocam datele lor( imagini, titluri, caracteristici etc.).
+        </p>
+        <p>
+            Design-ul arhitectural al aplicatiei este MVC(Model - View - Controller) pentru a modulariza aplicatia si a usura
+            scrierea de cod.
+        </p>
+        <p>
+            Frontend-ul este scris in HTML5, CSS3  fara a folosi alte librarii. Textul din aplicatie foloseste fontul Arial.
+        </p>
+        <p>
+            Pentru backend-ul aplicatiei se va folosi PHP.
+        </p>
+    </section>
+    <section id="statistics-api">
+        <h3>Interfata pentru statistici</h3>
+        <p>
+            Aplicatia SoDrO monitorizeaza activitatea celor mai populare produse,
+            astfel realizand statistici disponibile atat in format csv cat si svg. 
+        </p>
+    </section>
+</section>
+
+<section id="source-code">
+    <h2>Gestionarea Codului</h2>
+    <p>
+        Pentru gestionarea codului a fost folosita aplicatia  <a href="https://replit.com" target="_blank">Replit</a> prin care toti membrii echipei au contribuit. Mai mult, a fost folosit si Github-ul, cu <a href="https://github.com/dangz18/SoDrO" target="_blank">repository-ul </a> pentru stocarea codului intermediar.
+    </p>
+</section>
+
+
+<section id="Security">
+    <h2>Securitate</h2>
+            <p>Pentru a preveni o ulterioare sustragere de informatii, parola utilizata de utilizator are un numar minim de caractere, astfel probabilitatea de descoperire a parolei este mai mica. La fel utilizatorul are unele restrictii in introducerea unor caratere si simboluri pentru username, parola. Un exemplu ar fi caracterele speciale html: "<",">", care ofera posibilitatea de a scri javascript-uri, astfel site-ul devine vulnerabil.       </p>
+</section>
+<!--4.System Features-->
+<section id="system-features">
+    <!-- review? -->
+    <h2>Functionalitati</h2>
+    <section id="login">
+        <h3>Autentificarea</h3>
+        <p>
+            Autentificarea utilizatorului se realizeaza intr-o pagina dedicata acestei operatii si presupune
+            completarea urmatoarelor campuri: nume de utilizator, parola. Pentru a continua utlizatorul
+             trebuie sa apese pe butonul "Sign In" si, in cazul in care datele exista in baza de date a aplicatiei, acesta este redirectionat
+            pe pagina principala: "Home".
+          In cazul in care utilizatorul nu are un cont existent, el poate sa se inregistreze prin apasarea butonului: "Sign Up", fiind redirectionat pe pagina de inregistrare a contului.
+          Desigur, autentificarea necesita exista unui cont de utilizator.
+        </p>
+    </section>
+    <section id="register">
+        <h3>Inregistrarea</h3>
+        <p>
+            Aceasta operatie presupune creare unui nou cont de utlizator. In urma completarii campurilor: nume de utlizator, email, parola, confirmare parola, bifarea preferintelor si apasarea butonului "Sign Up"
+           si verificarii validitatii informatiei intorduse (username-ul utilizatorului nu se mai regaseste in baza de date, confirmare parola este la fel ca parola) utilizatorul este redirectionat pe pagina "Home".
+        </p>
+    </section>
+
+    <section id="top-subbreddits">
+        <h3>Vizualizarea celor mai populare bauturi</h3>
+        <p>
+            Bazat pe preferintele utilizatorilor, fie la crearea contului, fie in setari, utlizatorul va putea vedea
+            in pagina home cele mai populare bauturi nonalcoolice sub forma unei liste. Fiecare element al listei va contine
+            informatii referitare la bauturi.
+        </p>
+    </section>
+
+    <section id="user-settings">
+        <h3>Setarile Utilizatorului</h3>
+        <p>
+            Utilizatorul va putea accesa setari asociate contului sau. Astfel el va putea vizualiza datele personale, schimba parola si modifica
+            emailul. Tot in pagina de setari va putea modifica
+            preferintele sale.
+        </p>
+
+    </section>
+    <section id="Products">
+        <h3>Vizualizarea produselor</h3>
+        <p>
+          In aceasta pagina utilizatorul poate vizualiza toate produsele care de asemenea pot fi filtrate in dependenta de preferinte, ingrediente, categorie, pret.
+          Produsele sunt afisate in forma tabelara si ofera o informatie limitata: imagine si nume.
+          In cazul in care utilizatorul nu poate gasi un produs anume, poate cauta in bara de cautare.
+        </p>
+    </section>
+
+    <section id="Product">
+        <h3>Vizualizarea produsului</h3>
+        <p>
+          Aceasta pagina ofera posibilitate utilizatorului de a vizualiza o informatie mai detaliata despre un produs anume si de a vedea compatibilitatea produsului cu preferintele sale. Mai mult, utilizatorul poate adauga produsul dat la o lista creata anterior de el.
+        </p>
+    </section>
+
+  <section id="List">
+        <h3>Creearea unei liste de cumparaturi</h3>
+        <p>
+          Utilizatorul isi poate creea o lista de cumparaturi, apasand pe butonul "Create". La fel, utilizatorul poate vizualiza listele create anterior de el intr-o lista, iar prin apasarea unei liste utilizatorul este redirectionat la pagina cu componentele listei, unde poate bifa produsul care deja este in cosul de cumparaturi la magazin.
+        </p>
+    </section>
+
+</section>
+
+<section id="biblio-references">
+    <h2>Referinte</h2>
+    <ul>
+        <li><a href="https://world.openfoodfacts.org/">OpenFoodFacts</a> - Website-ul cu datele despre bauturi non-alcoolice</li>
+        <li><a href="https://figma.com">Figma</a> - Website-ul pentru creearea design-ului</li>
+        <li><a href="https://replit.com">Replit</a> - Website-ul pentru scrierea codului html/css/php</li>
+        <li><a href="https://www.w3schools.com/">W3Schools</a> - Website-ul pentru tutorial html/css</li>
+    </ul>
+</section>
+</body>
+</html>

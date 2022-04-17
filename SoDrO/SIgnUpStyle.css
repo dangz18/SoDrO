@@ -1,0 +1,253 @@
+.background {
+  width: 100%;
+  height: 3647px;
+  left: 0px;
+  top: 330px;
+  background: #BCC9D8;
+}
+
+.container {
+  position:relative;
+  width: 90%;
+  min-width:1200px;
+  height: 3437px;
+  left: 76px;
+  top: 100px;
+  background: #FFC268;
+  border-radius: 161px;
+}
+
+.titlu {
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  height: 100px;
+  left: 450px;
+  top: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container .formularBar{
+  font-size:30px;
+  position: relative; 
+  right:250px;
+  border-radius:20px;
+  border-color: black solid;
+  border: 10px;
+  width:80%;
+  height:50px;
+  top:15px;
+  background: #BCC9D8;
+  text-align:center;
+}
+
+.prefs {
+  margin-left:70px;
+  position: absolute;
+  width: 362px;
+  height: 100px;
+  left: 450px;
+  top: 600px;
+
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 60px;
+ line-height: 73px;
+ text-align: center;
+
+ color: #000000;
+
+ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.container2 {
+  position: absolute;
+  width: 80%;
+  height: 27%;
+  left:10%;
+  top: 800px;
+
+  background: #BCC9D8;
+  border-radius: 40px;
+}
+
+
+.nutriscoreimg{
+  position:absolute;
+  left:5%;
+  top:5%;
+}
+
+.saltimg{
+  position:relative;
+  left:8%;
+  top:18%;
+}
+
+.sugarimg{
+  position:relative;
+  left:9%;
+  top:17%;
+}
+
+.fatimg{
+  position:relative;
+  left:9%;
+  top:15%;
+}
+
+.SignUpContainer{
+  font-size:30px;
+  positon:absolute;
+  margin-left:30%;
+  margin-top:5%;
+}
+
+.container3 {
+  position: absolute;
+  width: 80%;
+  height: 22%;
+  left:10%;
+  top: 1900px;
+
+  background: #BCC9D8;
+  border-radius: 40px;
+}
+
+.alergeni{
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  height: 100px;
+  left: 450px;
+  top: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.glutenimg{
+  position:absolute;
+  left:9%;
+  top:17%;
+}
+
+.lactoseimg{
+  position:absolute;
+  left:10%;
+  top:35%;
+}
+
+.almondimg{
+  position:absolute;
+  left:10%;
+  top:51%;
+}
+
+.soybeansimg{
+  position:absolute;
+  left:10%;
+  top:68%;
+}
+
+.SO2img{
+  position:absolute;
+  left:10%;
+  top:84%;
+}
+
+.container4 {
+  position: absolute;
+  width: 80%;
+  height: 14%;
+  left:10%;
+  top: 2700px;
+
+  background: #BCC9D8;
+  border-radius: 40px;
+}
+
+.ingrediente{
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  height: 100px;
+  left: 450px;
+  top: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.organicimg{
+  position:absolute;
+  left:10%;
+  top:28%;
+}
+
+.veganimg{
+  position:absolute;
+  left:10%;
+  top:54%;
+}
+
+.vegetarianimg{
+  position:absolute;
+  left:10%;
+  top:77%;
+}
+
+.submitbtn{
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  height: 100px;
+  left: 450px;
+  top: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.submitbtn:hover{
+  background: #6A87A8;
+  color: white;
+}
+
+.alreadyreg {
+  margin-top:2%;
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align:center;
+}
