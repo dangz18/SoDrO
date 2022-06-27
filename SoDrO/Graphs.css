@@ -1,0 +1,204 @@
+.GraphsBackground{
+  height:1000px;
+}
+/*Desktop mode*/
+@media only screen and (min-width:1076px){
+
+.GraphsContainer{
+  position:relative;
+  width: 50%;
+  height: 90%;
+  left: 25%;
+  top: 100px;
+  background: #FFC268;
+  border-radius: 161px;
+}
+
+.canvas{
+  width: 70%;
+  position:relative;
+  left:15%;
+  top:10%;
+}
+
+.Downloadbtn{
+  
+  width: 150px;
+  height: 60px;
+  margin-left:40%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.Downloadbtn:hover{
+  background: #6A87A8;
+  color: white;
+}
+
+.Sugarsbtn{
+  margin-top:3%;
+  width: 150px;
+  height: 60px;
+  margin-left:40%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.Sugarsbtn:hover{
+  background: #6A87A8;
+  color: white;
+}
+
+.GraphBtns{
+  margin-top:30%;
+}
+
+}
+
+/*Tablet mode*/
+@media only screen and (max-width: 1075px){
+.GraphsContainer{
+  position:relative;
+  width: 80%;
+  height: 90%;
+  left:12%;
+  top: 100px;
+  background: #FFC268;
+  border-radius: 161px;
+}
+
+.canvas{
+  width: 70%;
+  position:relative;
+  left:15%;
+  top:10%;
+}
+
+.Downloadbtn{
+  
+  width: 150px;
+  height: 60px;
+  margin-left:40%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.Downloadbtn:hover{
+  background: #6A87A8;
+  color: white;
+}
+
+.Sugarsbtn{
+  margin-top:3%;
+  width: 150px;
+  height: 60px;
+  margin-left:40%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.Sugarsbtn:hover{
+  background: #6A87A8;
+  color: white;
+}
+
+.GraphBtns{
+  margin-top:30%;
+}
+
+}
+
+/*Phone mode*/
+@media only screen and (max-width: 675px){
+
+  .GraphsContainer{
+  position:relative;
+  width: 90%;
+  height: 90%;
+  left: 6%;
+  top: 100px;
+  background: #FFC268;
+  border-radius: 161px;
+}
+
+.canvas{
+  width: 70%;
+  position:relative;
+  left:15%;
+  top:10%;
+}
+
+.Downloadbtn{
+  
+  width: 150px;
+  height: 60px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.Downloadbtn:hover{
+  background: #6A87A8;
+  color: white;
+}
+
+.Sugarsbtn{
+  margin-top:3%;
+  width: 150px;
+  height: 60px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.Sugarsbtn:hover{
+  background: #6A87A8;
+  color: white;
+}
+
+.GraphBtns{
+  margin-top:50%;
+  margin-right:19%;
+}
+
+}

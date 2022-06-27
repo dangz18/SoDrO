@@ -1,0 +1,255 @@
+/*GENERAL*/
+.row {
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+body {
+  background: #BCC9D8;
+  width:100%;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+h2{
+  font-size: 30px;
+  text-align: center;
+}
+
+h3{
+  font-size: 25px;
+  text-align: center;
+}
+
+.hSpecial{
+  font-size: 20px;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+.error{
+  font-size: 15px;
+  text-align: center;
+  color:red;
+}
+p{
+  margin-left: 10%;
+  margin-top: 2%;
+  font-size: 20px;
+}
+p2{
+  font-size:20px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 8px;
+}
+
+.titleBar1{
+  width:40%;
+  height:70px;
+  background:#FFC268;  
+  border-radius:25px;
+  margin-left:30%;
+  margin-top:40px;
+  margin-bottom:20px;
+}
+.titleBar2{
+  width:40%;
+  height:70px;
+  background:#BCC9D8;  
+  border-radius:35px;
+  margin-left:30%;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+/* ---Back Button--- */
+.backButton {
+  width:70px;
+  max-width:100px;
+  min-width:20px;
+  height:50px;
+  border-radius:25px;
+  background:#FFC268;
+  margin-top: 40px;
+  margin-left: 5%;
+  box-sizing:border-box;
+  font-size: 20px;
+  align-items:center;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.backButton:hover{
+  background:#BCC9D8;
+}
+/* ---For Back Button Image--- */
+.backBt{
+  width:40px;
+  height:40px;
+}
+/* ---For Delete Button Image--- */
+.binBt{
+  width:30px;
+  height:30px;
+}
+/* ---For Add Button Image--- */
+.addBt{
+  width:40px;
+  height:40px;
+}
+
+/* ---Title Bar for Navigation--- */
+.titleBar3{
+  width:40%;
+  min-height:70px;
+  background:#FFC268;  
+  border-radius:35px;
+  margin-left:20%;
+  margin-top:40px;
+  margin-bottom:20px;
+}
+
+/* ---For decision Button--- */
+.decisionBtn{
+  margin-top:10px;
+  width: 50px;
+  height: 30px;
+  border-radius:10px;
+  align-text:center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.decisionBtn#yes{
+  margin-left:40%;
+  background: #6bdd69;
+}
+.decisionBtn#no{
+  margin-left:5%;
+  background: #f04747;
+}
+.decisionBtn#yes:hover, .decisionBtn#no:hover{
+  background:#9da1a4;
+}
+
+.decisionBtn#confirm{
+  width: 100px;
+  margin-left:35%;
+  background: #6bdd69;
+}
+.decisionBtn#signIn{
+  width: 100px;
+  margin-left:35%;
+  background: #6bdd69;
+}
+.decisionBtn#cancel{
+  width: 100px;
+  margin-left:5%;
+  background: #f04747;
+}
+.decisionBtn#confirm:hover, .decisionBtn#cancel:hover,.decisionBtn#signIn:hover{
+  background:#9da1a4;
+}
+
+/* ---For PopUp--- */
+.popup{
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 400px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+}
+.popup-content{
+  background-color: #BCC9D8;
+  border-radius:15px;
+  margin: auto;
+  min-height: 100px;
+  border: 1px solid black;
+  width: 50%;
+  position: relative;
+}
+
+
+/*TABLET MODE*/
+
+@media only screen and (max-width:1075px){
+  .decisionBtn#yes{
+    margin-left:35%;
+  }
+  .decisionBtn#no{
+    margin-left:5%;
+  }
+
+  .decisionBtn#confirm{
+    margin-left:30%;
+  }
+
+  
+  .titleBar1{
+    display:block;
+    width:58%;
+    height:70px;
+    margin-left:25%;
+  }
+  .titleBar3{
+    width:60%;
+    margin-left:5%;
+  }
+ 
+}
+
+/*PHONE MODE*/
+
+@media only screen and (max-width:675px){
+  .popup{
+    padding-top:50%;
+  }
+
+  .popup-content{
+    width: 75%;
+  }
+  
+  .decisionBtn#yes{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .decisionBtn#no{
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  .decisionBtn#confirm{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .decisionBtn#cancel{
+    margin-left:auto;
+    margin-right: auto;
+  }
+  
+  .titleBar1{
+    width:53%;
+    height:100px;
+    margin-left:25%;
+  }
+  .titleBar3{
+    width:60%;
+    margin-left:5%;
+  }
+}

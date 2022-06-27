@@ -1,0 +1,27 @@
+
+/*HOMEPAGE*/
+
+.homeContainer{/*TITLU + TOP + ABOUT*/
+  width:100%;
+  height:auto;
+}
+.aboutUsContainer{
+  background:#FFC268;
+  width:100%;
+  height:auto;
+  min-height:250px;
+}
+
+/*TABLET MODE*/
+
+@media only screen and (max-width:1075px){
+ 
+}
+
+/*PHONE MODE*/
+
+@media only screen and (max-width:675px){
+ .aboutUsContainer{
+   min-height:300px;
+ }
+}

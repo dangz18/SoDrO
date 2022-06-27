@@ -1,0 +1,524 @@
+
+/*Desktop mode*/
+@media only screen and (min-width:1076px){
+
+  .EditBackground {
+  width: 100%;
+  height: 1850px;
+  left: 0px;
+  top: 330px;
+  background: #BCC9D8;
+}
+  
+.EditContainer {
+  position:relative;
+  width: 50%;
+  height: 90%;
+  left: 25%;
+  top: 100px;
+  background: #FFC268;
+  border-radius: 161px;
+}
+
+.EditTitlu {
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  height: 100px;
+  left: 450px;
+  top: 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.EditContainer2 {
+  position: absolute;
+  width: 80%;
+  height: 35%;
+  left:10%;
+  top: 9%;
+
+  background: #BCC9D8;
+  border-radius: 40px;
+}
+
+
+.EditNutriscoreimg{
+  position:absolute;
+  left:2%;
+  top:5%;
+}
+
+.EditSaltimg{
+  position:relative;
+  margin-left:7%;
+  top:18%;
+}
+
+.EditSugarimg{
+  position:relative;
+  margin-left:7%;
+  top:17%;
+}
+
+.EditFatImg{
+  position:relative;
+  margin-left:7%;
+  top:15%;
+}
+
+.EditContainer2 form{
+  width:100%;
+  font-size:20px;
+}
+
+.EditSignUpContainer{
+  font-size:20px;
+  positon:absolute;
+  margin-left:30%;
+  margin-top:5%;
+}
+
+.EditContainer3 {
+  position: absolute;
+  width: 80%;
+  height: 42%;
+  left:10%;
+  top:45%;
+
+  background: #BCC9D8;
+  border-radius: 40px;
+}
+
+.EditContainer3 form{
+  width:40%;
+}
+
+.EditAlergeni{
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  height: 75px;
+  left: 450px;
+  top: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.EditGlutenimg{
+  position:absolute;
+  left:9%;
+  top:17%;
+}
+
+.EditLactoseimg{
+  position:absolute;
+  left:10%;
+  top:35%;
+}
+
+.EditAlmondimg{
+  position:absolute;
+  left:10%;
+  top:51%;
+}
+
+.EditSoybeansimg{
+  position:absolute;
+  left:10%;
+  top:68%;
+}
+
+.EditSO2img{
+  position:absolute;
+  left:10%;
+  top:84%;
+}
+
+.EditSubmitbtn{
+  margin-top:0;
+  width: 225px;
+  height: 100px;
+  margin-left:33%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.EditSubmitbtn:hover{
+  background: #6A87A8;
+  color: white;
+}
+
+.EditContainer5{
+  position:relative;
+  top:82%;
+}
+
+}
+/* Tablet mode */
+@media only screen and (max-width: 1075px){
+  .EditBackground {
+  width: 100%;
+  height: 2200px;
+  left: 0px;
+  top: 330px;
+  background: #BCC9D8;
+}
+  
+.EditContainer {
+  position:relative;
+  width: 65%;
+  height: 90%;
+  left: 20%;
+  top: 100px;
+  background: #FFC268;
+  border-radius: 161px;
+}
+
+.EditTitlu {
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  height: 100px;
+  left: 450px;
+  top: 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.EditContainer2 {
+  position: absolute;
+  width: 80%;
+  height: 40%;
+  left:10%;
+  top: 6%;
+
+  background: #BCC9D8;
+  border-radius: 40px;
+}
+
+.EditNutriscoreimg{
+  position:absolute;
+  left:2%;
+  top:5%;
+}
+
+.EditSaltimg{
+  position:relative;
+  margin-left:7%;
+  top:18%;
+}
+
+.EditSugarimg{
+  position:relative;
+  margin-left:7%;
+  top:17%;
+}
+
+.EditFatImg{
+  position:relative;
+  margin-left:7%;
+  top:16%;
+}
+
+.EditContainer2 form{
+  width:43%;
+  margin-left:10%;
+}
+
+.EditSignUpContainer{
+  font-size:20px;
+  positon:absolute;
+  margin-left:30%;
+  margin-top:5%;
+}
+
+.EditContainer3 {
+  position: absolute;
+  width: 80%;
+  height: 33%;
+  left:10%;
+  top:51%;
+
+  background: #BCC9D8;
+  border-radius: 40px;
+}
+
+.EditAlergeni{
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  height: 55px;
+  left: 450px;
+  top: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.EditGlutenimg{
+  position:absolute;
+  left:9%;
+  top:17%;
+}
+
+.EditLactoseimg{
+  position:absolute;
+  left:10%;
+  top:35%;
+}
+
+.EditAlmondimg{
+  position:absolute;
+  left:10%;
+  top:51%;
+}
+
+.EditSoybeansimg{
+  position:absolute;
+  left:10%;
+  top:68%;
+}
+
+.EditSO2img{
+  position:absolute;
+  left:10%;
+  top:84%;
+}
+
+.EditContainer3 form{
+  width:45%;
+  margin-left:10%;
+}
+
+.EditSubmitbtn{
+  margin-top:8%;
+  width: 225px;
+  height: 100px;
+  margin-left:27%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.EditSubmitbtn:hover{
+  background: #6A87A8;
+  color: white;
+}
+
+.EditContainer5{
+  position:relative;
+  top:82%;
+}
+}
+
+/* Phone mode */
+@media only screen and (max-width:655px){
+  .EditBackground {
+  width: 100%;
+  height: 2100px;
+  left: 0px;
+  top: 330px;
+  background: #BCC9D8;
+}
+  
+  .EditContainer {
+  left:10%;
+  position:relative;
+  width: 80%;
+  height: 90%;
+  top: 100px;
+  background: #FFC268;
+  border-radius: 161px;
+}
+
+.EditTitlu {
+  width: 362px;
+  height: 100px;
+  left: 2%;
+  top: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.EditContainer2 {
+  position: absolute;
+  width: 80%;
+  height: 40%;
+  margin-left:0%;
+  top:5%;
+
+  background: #BCC9D8;
+  border-radius: 40px;
+}
+
+.EditContainer2 form{
+  position:relative;
+  width:55%;
+  left:50px;
+  font-size:20px;
+}
+
+
+.EditNutriscoreimg{
+  position:absolute;
+  left:5%;
+  top:5%;
+}
+
+.EditSaltimg{
+  position:relative;
+  margin-right:90%;
+  top:15%;
+}
+
+.EditSugarimg{
+  position:relative;
+  margin-right:90%;
+  top:15%;
+}
+
+.EditFatImg{
+  position:relative;
+  margin-right:90%;
+  top:15%;
+}
+
+.EditSignUpContainer{
+  font-size:20px;
+  positon:absolute;
+  margin-left:30%;
+  margin-top:5%;
+}
+
+  
+.EditContainer3 {
+  position: absolute;
+  width: 80%;
+  height: 37%;
+  margin-left:0%;
+  top:50%;
+  background: #BCC9D8;
+  border-radius: 40px;
+}
+
+.EditContainer3 form{
+  position:relative;
+  width:104px;
+  left:50px;
+  font-size:20px;
+}
+
+.EditAlergeni{
+  height: 105px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 97px;
+  color: #000000;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.EditGlutenimg{
+  position:absolute;
+  left:9%;
+  top:17%;
+}
+
+.EditLactoseimg{
+  position:absolute;
+  left:10%;
+  top:35%;
+}
+
+.EditAlmondimg{
+  position:absolute;
+  left:10%;
+  top:51%;
+}
+
+.EditSoybeansimg{
+  position:absolute;
+  left:10%;
+  top:68%;
+}
+
+.EditSO2img{
+  position:absolute;
+  left:10%;
+  top:84%;
+}
+
+.EditSubmitbtn{
+  position:relative;
+  left:7%;
+  width: 30%;
+  height: 30%;
+  margin-top:16%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.EditSubmitbtn:hover{
+  background: #6A87A8;
+  color: white;
+}
+
+.EditContainer5{
+  position:relative;
+  top:83%;
+}
+}

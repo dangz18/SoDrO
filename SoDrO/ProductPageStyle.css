@@ -1,0 +1,252 @@
+/* ---Desktop Mode--- */
+
+.addButton {
+  width:40px;
+  height:40px;
+  border-radius:25px;
+  background:#FFC268;
+  margin-top: 40px;
+  margin-left: 20%;
+  box-sizing:border-box;
+  font-size: 20px;
+  align-items:center;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.addButton:hover{
+  background:#BCC9D8;
+}
+.listManagerBtn#addListBtn{
+    background:#BCC9D8;
+}
+.listManagerBtn#deleteListBtn{
+    background:#f04747;
+    margin-left: 5%;
+}
+.listManagerBtn#addListBtn:hover, .listManagerBtn#deleteListBtn:hover{
+  background:#9da1a4;
+}
+
+.listOfTitlesCont#addProdToListCont{
+  width: 70%;
+  margin-left: 15%;
+}
+
+h2#MyLists{
+  margin-top: 20px;
+  margin-left: 2%;
+}
+
+p#selectList{
+  margin-left:auto;
+  margin-right:auto;  
+}
+
+/* ---Product Image Container--- */
+.productImageCont{
+  height: 220px;
+  width:200px;
+  min-width:100px;
+  background:#FFC268;  
+  border-radius:35px;
+  margin-left:5%;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+/* ---Product Info Container--- */
+.productInfoCont{
+  width: 70%;
+  min-height: 220px;
+  background:#FFC268; 
+  border-radius:35px;
+  margin-left:5%;
+  margin-top:20px;
+  margin-bottom:20px;
+  display: flex;
+  flex-direction:row;
+  flex-flow:wrap;
+}
+
+/* ---Drink Image--- */
+.drinkProdImage{
+  height:185px;
+  width:150px;
+  margin-left: 15%;
+  margin-top: 5px;
+  background:var(--background);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+/* ---Nutri scores--- */
+.nutri_score{
+  height:170px;
+  width:320px;
+  margin-left:4%;
+  margin-top: 30px;
+  background:var(--background);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+.productPriceCont{
+  margin-top: 20px;
+  margin-left: 40%;
+}
+
+
+.nutrient_lvl{
+  margin-left:8%;
+  margin-top: 20px;
+}
+
+/* ---Product Nutrient Table Container--- */
+.productNutrientTableCont{
+  width: 90%;
+  min-height: 400px;
+  background:#FFC268; 
+  border-radius:35px;
+  margin-left:5%;
+  margin-top:5px;
+  margin-bottom:20px;
+  display: flex;
+  flex-direction:row;
+  flex-flow:wrap;
+  position: relative;
+}
+
+/* ---List of ingredients--- */
+.ingredients{
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* ---List of Categories--- */
+.category{
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 30px;
+}
+
+/* ---List of Restrictions */
+.restrictions{
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 30px;
+}
+/* ---Tabel--- */
+.table, th, td{
+  width: 20%;
+  background: #BCC9D8;
+  border-width: thin medium;
+  border: transparent;
+  border-collapse: separate;
+  border-spacing: 20px 0;
+}
+
+.nutrient_table{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 30px;
+}
+
+/*TABLET MODE*/
+@media only screen and (max-width:1075px){
+
+  .addButton{
+    margin-left: 5%;
+  }
+  /* ---Nutri scores--- */
+  .nutri_score{
+    height: 120px;
+    width: 230px;  
+    margin-left: 10%;
+  }
+
+  /* ---Product Price Container--- */
+  .productPriceCont{
+    margin-left: 20%;
+  }
+
+
+  /* ---Product Image Container--- */
+  .productImageCont{
+    width: 265px;
+    height: 220px;
+    max-width:200px;
+    min-width:100px;
+    background:#FFC268;  
+    border-radius:35px;
+    margin-left:15%;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+  
+  /* ---Product Info Container --*/
+  .productInfoCont{
+    width: 40%;
+    min-height: 220px;
+    background:#FFC268; 
+    border-radius:35px;
+    margin-left:5%;
+    margin-top:20px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction:row;
+    flex-flow:wrap;
+  }
+    
+  
+}
+
+/*PHONE MODE*/
+@media only screen and (max-width: 675px){
+
+  .addButton{
+    margin-left: 5%;
+  }
+
+  /* ---Product Price Container--- */
+    .productPriceCont{
+      margin-left: 30%;
+    }
+  
+  /* ---Product Image Container--- */
+  .productImageCont{
+    background:#FFC268;
+    border-radius:35px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  /* ---Product Info Container --*/
+  .productInfoCont{
+    width: 90%;
+    min-height: 220px;
+    background:#FFC268; 
+    border-radius:35px;
+    margin-left:5%;
+    margin-top:20px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction:row;
+    flex-flow:wrap;
+  }
+
+
+
+  
+  
+}

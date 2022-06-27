@@ -40,19 +40,19 @@ h4{
   background-size:contain;
 }
 
-.banner .navigation ul{
+.banner  ul{
   position: relative;
   top:-80px;
   display:flex;
   justify-content:center
 }
 
-.banner .navigation li{
+.banner li{
   display:inline-block;
   list-style:none;
   margin:0 7px;
 }
-.banner .navigation li button{
+.banner li  button{
   border: 0;
   border-radius: 35px;
   padding:0px;
@@ -60,11 +60,11 @@ h4{
   height:50px;
   background: linear-gradient(180deg, #6A87A8 39.66%, rgba(106, 135, 168, 0) 100%);
 }
-.banner .navigation li button:hover{
+.banner  li  button:hover{
   background-color: #6A87A8; /* Green */
   color: white;
 }
-.banner .navigation li button:active{
+.banner  li  button:active{
     outline: #6A87A8 auto 5px; 
 }
 .listBt{

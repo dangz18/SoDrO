@@ -1,0 +1,187 @@
+.Emailbackground{
+  background: #BCC9D8;
+  width=100%;
+  height:600px;
+}
+
+/*Desktop mode*/
+@media only screen and (min-width:1076px){
+.Emailcontainer1{
+  position: relative;
+  top: 20%;
+  margin-left:auto;
+  margin-right:auto;
+  height: 60%;
+  width: 60%;
+  border-radius: 161px;
+  background: #FFC268;
+}
+
+.Emailtitlu{
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  height: 60px;
+  left: 450px;
+  top: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Emailcontainer1 .formularBar{
+  margin-top:3%;
+  margin-left:30%;
+  font-size:20px;
+  border-radius:20px;
+  border-color: black solid;
+  border: 10px;
+  width:40%;
+  height:50px;
+  background: #BCC9D8;
+  text-align:center;
+}
+
+.Emailsubmitbtn{
+  position:relative;
+  width: 25%;
+  height: 60px;
+  left: 37%;
+  top:10%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 0;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+  cursor: pointer;
+}
+}
+
+/*Tablet mode*/
+@media only screen and (max-width: 1075px){
+
+.Emailcontainer1{
+  position: relative;
+  top: 20%;
+  margin-left:auto;
+  margin-right:auto;
+  height: 60%;
+  width: 60%;
+  border-radius: 161px;
+  background: #FFC268;
+}
+
+.Emailtitlu{
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  height: 60px;
+  left: 450px;
+  top: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Emailcontainer1 .formularBar{
+  margin-top:2%;
+  margin-left:30%;
+  font-size:20px;
+  border-radius:20px;
+  border-color: black solid;
+  border: 10px;
+  width:40%;
+  height:50px;
+  background: #BCC9D8;
+  text-align:center;
+}
+
+.Emailsubmitbtn{
+    position:relative;
+    width: 38%;
+    height: 60px;
+    left: 31%;
+    top:15%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #BCC9D8;
+    border-radius:35px;
+  }
+}
+
+
+/*Phone mode*/
+@media only screen and (max-width: 675px){
+
+.Emailcontainer1{
+  position: relative;
+  top: 20%;
+  margin-left:auto;
+  margin-right:auto;
+  height: 70%;
+  width: 80%;
+  border-radius: 161px;
+  background: #FFC268;
+}
+
+.Emailtitlu{
+  margin-left:auto;
+  margin-right:auto;
+  width: 60%;
+  height: 60px;
+  left: 0;
+  top: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Emailcontainer1 .formularBar{
+  position:relative;
+  margin-top:5%;
+  margin-left:30%;
+  font-size:20px;
+  border-radius:20px;
+  border-color: black solid;
+  border: 10px;
+  width:45%;
+  height:50px;
+  background: #BCC9D8;
+  text-align:center;
+}
+
+.Emailsubmitbtn{
+  position:relative;
+  width: 42%;
+  height: 60px;
+  left: 30%;
+  top:18%;
+}
+
+}

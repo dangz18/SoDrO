@@ -1,0 +1,344 @@
+.ProfBackground{
+  background: #BCC9D8;
+  width=100%;
+  height:600px;
+}
+
+/*Desktop mode*/
+@media only screen and (min-width:1076px){
+.ProfContainer1{
+  position: relative;
+  top: 20%;
+  margin-left:auto;
+  margin-right:auto;
+  height: 80%;
+  width: 60%;
+  border-radius: 161px;
+  background: #FFC268;
+}
+
+.ProfTitlu{
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  height: 60px;
+  left: 450px;
+  top: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ProfImagine{
+  position:relative;
+  height: 10%;
+  width: 10%;
+  left: 10%;
+  top: 25%;
+}
+
+a {
+  position: relative;
+  left:30%;
+}
+
+.ProfContainer2 {
+  background: #FFC268;
+  margin-left:37%;
+  width: 150px;
+  height: 20px;
+  margin-top:8%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+}
+
+.LogOutButton{
+  margin-top:0;
+  width: 155px;
+  height: 50px;
+  margin-left:30%;
+  margin-bottom:5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.LogOutButton:hover{
+  background: #6A87A8;
+  color: white;
+}
+
+.ContainerUsername{
+  font-size:20px;
+  position: relative;
+  left: 30%;
+  top:0;
+  border-radius:20px;
+  border-color: black solid;
+  border: 10px;
+  width:50%;
+  height:50px;
+  line-height: 50px;
+  text-align:center;
+  background: #BCC9D8;
+}
+
+
+
+.ContainerEmail{
+  font-size:20px;
+  position: relative;
+  left: 30%;
+  top:4%;
+  border-radius:20px;
+  border-color: black solid;
+  border: 10px;
+  width:50%;
+  height:50px;
+  line-height: 50px;
+  text-align:center;
+  background: #BCC9D8;
+}  
+}
+
+/*Tablet mode*/
+@media only screen and (max-width: 1075px){
+
+.ProfContainer1{
+  position: relative;
+  top: 20%;
+  margin-left:auto;
+  margin-right:auto;
+  height: 80%;
+  width: 60%;
+  border-radius: 161px;
+  background: #FFC268;
+}
+
+.ProfTitlu{
+  margin-left:auto;
+  margin-right:auto;
+  width: 362px;
+  height: 60px;
+  left: 450px;
+  top: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ProfImagine{
+  position:relative;
+  height: 10%;
+  width: 10%;
+  left: 10%;
+  top: 25%;
+}
+
+a {
+  position: relative;
+  left:30%;
+}
+
+.ProfContainer2 {
+  position: relative;
+  background: #FFC268;
+  margin-left:auto;
+  margin-right:auto;
+  width: 140px;
+  height: 20px;
+  right: 5%;
+  top: 10%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+}
+  
+.LogOutButton{
+  margin-top:0;
+  width: 155px;
+  height: 50px;
+  margin-left:23%;
+  margin-bottom:5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.LogOutButton:hover{
+  background: #6A87A8;
+  color: white;
+}
+  
+.ContainerUsername{
+  font-size:20px;
+  position: relative;
+  left: 30%;
+  top:0;
+  border-radius:20px;
+  border-color: black solid;
+  border: 10px;
+  width:50%;
+  height:50px;
+  line-height: 50px;
+  text-align:center;
+  background: #BCC9D8;
+}
+
+.ContainerEmail{
+  font-size:20px;
+  position: relative;
+  left: 30%;
+  top:4%;
+  border-radius:20px;
+  border-color: black solid;
+  border: 10px;
+  width:50%;
+  height:50px;
+  line-height: 50px;
+  text-align:center;
+  background: #BCC9D8;
+}  
+
+  
+
+}
+
+
+
+/*Phone mode*/
+@media only screen and (max-width: 675px){
+
+.ProfContainer1{
+  position: relative;
+  top: 20%;
+  margin-left:auto;
+  margin-right:auto;
+  height: 90%;
+  width: 80%;
+  border-radius: 161px;
+  background: #FFC268;
+}
+
+.ProfTitlu{
+  position:relative;
+  top:0;
+  width:60%;
+  left: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 97px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ProfImagine{
+  position:relative;
+  left: 10%;
+  top:25%;
+}
+
+a {
+  position: relative;
+  left:30%;
+}
+
+.ProfContainer2 {
+  position: relative;
+  background: #FFC268;
+  width: 120px;
+  height: 20px;
+  top: 5%;
+  right:8%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 15px;
+  
+  text-align: center;
+}
+    
+.LogOutButton{
+  margin-top:0;
+  width: 155px;
+  height: 50px;
+  margin-left:20%;
+  margin-bottom:5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #BCC9D8;
+  border-radius:35px;
+}
+
+.LogOutButton:hover{
+  background: #6A87A8;
+  color: white;
+}
+
+    
+.ContainerUsername{
+  font-size:15px;
+  position: relative;
+  left: 30%;
+  top:0;
+  border-radius:20px;
+  border-color: black solid;
+  border: 10px;
+  width:60%;
+  height:50px;
+  line-height: 50px;
+  text-align:center;
+  background: #BCC9D8;
+  overflow:hidden;
+}
+
+.ContainerEmail{
+  font-size:15px;
+  position: relative;
+  left: 30%;
+  top:3%;
+  border-radius:20px;
+  border-color: black solid;
+  border: 10px;
+  width:60%;
+  height:50px;
+  line-height: 50px;
+  text-align:center;
+  background: #BCC9D8;
+  overflow:hidden;
+  
+}  
+
+}
